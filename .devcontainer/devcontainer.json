@@ -1,0 +1,12 @@
+{
+  "name": "Mini CRM Dev",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "features": {
+    "ghcr.io/devcontainers/features/postgres:1": {
+      "version": "16",
+      "password": "postgres",
+      "database": "minicrm"
+    }
+  },
+  "forwardPorts": [5432, 4000, 5173]
+}
